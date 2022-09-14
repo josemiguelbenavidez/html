@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias in HTML</title>
+</head>
+<body>
+    <h1>Dinamic images</h1>
+    <p>Try to open this web page in many services or simplily maximaze or minimize the size</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="image/photo-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="image/photo-m.png" type="image/png">
+        <img src="image/photo-g.png" alt="Flexible image">
+    </picture>
+
+    <h1>Play audio</h1>
+    <p>We are going to play audios in HTML</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/il bacio di Klimt_" type="audio/mpeg">
+        <source src="midia/il bacio di Klimt" type="audio/ogg">
+        <source src="midia/il bacio di Klimt" type="audio/wav">
+        <p>Unfurtanly your browser dont play this audio <a href="midia/il bacio di Klimt_">Click here for dowloand the mp3 archive</a> </p>
+    </audio>
+</body>
+</html>

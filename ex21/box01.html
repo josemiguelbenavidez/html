@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        h1 { /* box level*/
+
+            display: inline;
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            border:10px solid darkslategray ;
+
+            padding: 10px;
+
+            margin: 20px 20px 30px 20px;
+
+            outline: 5px dashed salmon;
+        }
+
+        a { /*inline- level*/
+
+            display: inline;
+            border-width: 5px;
+            border-style: solid;
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box Example box-level</h1>
+    <p>Pharagraph also are exemple of box-level, but the <a href="#">But the links are example of inlevel box</a></p>
+</body>
+</html>
